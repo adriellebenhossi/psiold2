@@ -360,14 +360,6 @@ export function ArticlesSection({ className = "" }: ArticlesSectionProps) {
                               </span>
                             </div>
                           </div>
-
-                          {/* Tempo de leitura */}
-                          {article.readingTime && (
-                            <div className="flex items-center gap-1 text-xs text-gray-400 mt-2">
-                              <BookOpen className="h-3 w-3" />
-                              <span>{article.readingTime} min</span>
-                            </div>
-                          )}
                         </div>
                       </div>
                     </article>
